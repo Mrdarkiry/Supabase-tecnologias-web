@@ -8,7 +8,7 @@ document.getElementById("formLogin").addEventListener("submit", async (e) => {
 
   if (res.ok) {
     window.location.href = "productos.html";
-    
+
   } else {
     mostrarMensaje(res.error);
   }
