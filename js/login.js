@@ -8,8 +8,7 @@ document.getElementById("formLogin").addEventListener("submit", async (e) => {
 
   if (res.ok) {
     window.location.href = "productos.html";
-    //mostrarMensaje("¡Sesión iniciada!", "success");
-    // TODO: redirigir a la página principal, ej: window.location.href = "dashboard.html";
+    
   } else {
     mostrarMensaje(res.error);
   }
